@@ -1,3 +1,4 @@
+package input_outputQuiz;
 
 import java.util.Scanner;
 
