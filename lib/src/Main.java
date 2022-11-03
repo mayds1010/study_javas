@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 //- 문제 파악
 // 두 정수 A와 B를 입력받은 다음, A+B를 출력
 // 입력값은 (0 < A, B < 10)따라야 한다.
@@ -25,7 +23,7 @@ import java.util.Scanner;
 
 //- try-on
 //- 실패 시 원인 기록
-
+import java.util.Scanner;
 public class Main {
     //두 정수 합 구함.
     public int plus(int input_first, int input_second) {
