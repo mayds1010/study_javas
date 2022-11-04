@@ -25,7 +25,7 @@ public class Main_1 {
 // 입력
 Scanner sc = new Scanner(System.in);
 int T, A, B;
-T = sc.nextInt();
+T = sc.nextInt();//T가 위에 있어야 T를 중점으로 해서 반복
 for (int i = 0; i < T; i++) {
     A = sc.nextInt();
     B = sc.nextInt();

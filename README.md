@@ -4,6 +4,7 @@
 | 사칙연산 | 덧셈 |[java](https://www.acmicpc.net/source/51273355) | [java](https://www.acmicpc.net/source/51273423) | 두 정수를 합함 |
 | 사칙연산 | 덧셈 |[java](https://www.acmicpc.net/source/51275879) | [java](https://www.acmicpc.net/source/51276729) | 케이스마다 A+B를 출력(반복) |
 | 사칙연산 | 뺄셈 |[java](https://www.acmicpc.net/source/50431018) | [java](https://www.acmicpc.net/source/51305930) | A-B를 출력 |
+| 사칙연산 | 덧셈(8393) |[java](https://www.acmicpc.net/source/51308085) | [java](https://www.acmicpc.net/source/51308417) | 두 정수를 합함(반복) |
 
 ## 작성 소스
 
