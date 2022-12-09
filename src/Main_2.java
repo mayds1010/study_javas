@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Main{
+public class Main_2{
     //세 수 A, B, C가 주어졌을 때, 위의 네 가지 값을 구하는 프로그램
 	public static void main(String[] args) {
         //입력

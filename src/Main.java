@@ -1,32 +1,33 @@
 import java.util.Scanner;
-//baekjoon_8393
-public class Main {
-    // - 테스트 케이스
-    // 3 --> 6
-    // 5 --> 15
-    // 1 --> 1
-    public int sum(int input) {
-        int sum = 0; //function후보
-        for(int i=1;i<=input;i++){
-            sum = sum + i; //function후보
+
+public class Main{ 
+    public int compare(int A,int B){
+        if(A>B){
+            System.out.println(">");
+        
+        }else if(A<B){
+            System.out.println("<");
+        }else{
+            System.out.println("==");
         }
-        return sum;
-    }
-    public static void main(String[] args) {
-    // 반복값 입력
-    Scanner scanner = new Scanner(System.in);
-    int input = scanner.nextInt();
-    scanner.close();
 
-    // 합 구함
-   Main main =new Main();
-   int output =main.sum(input);
-
-    // 합한 값 출력
-    System.out.println(output);
-    }
-    public int plus(int a, int b) {
         return 0;
     }
-    
+public static void main(String[] args) {   
+// - 테스트 케이스
+// 1 2--> <
+// 10 2 --> >
+// 5 5 --> ==
+//조건문 입력
+Scanner sc =new Scanner(System.in);
+int A,B;
+A=sc.nextInt();
+B=sc.nextInt();
+//결과
+Main main = new Main();
+int soso = main.compare(A, B);
+System.out.println(soso);
+
+sc.close();
+}
 }

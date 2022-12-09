@@ -31,7 +31,7 @@ for (int i = 0; i < T; i++) {
     B = sc.nextInt();
 
 // 처리
-Main main = new Main();
+Main_1 main = new Main_1();
 int output = main.plus(A,B);
 // 출력
 System.out.println(output);
