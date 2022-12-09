@@ -9,4 +9,10 @@
 ## 작성 소스
 
 - [App.java](https://github.com/mayds1010/study_javas/blob/master/src/App.java) : 기본 소스.
-- [AddAB.java](https://github.com/mayds1010/study_javas/blob/master/src/AddAB.java) : 두 변수를 합함. -[Overlap_ID]()
+- [AddAB.java](https://github.com/mayds1010/study_javas/blob/master/src/AddAB.java) : 두 변수를 합함. -- --
+- [Overlap_ID](https://github.com/mayds1010/study_javas/blob/master/src/Overlap_ID.java) : 아이디중복
+- [ascii](https://github.com/mayds1010/study_javas/blob/master/src/ascii.java) : 아스키코드
+- [test_scores]() : 시험성적
+- [compare]() : 두수의 비교
+- [leap_year]() : 윤년
+- [quadrant] () : 사분면
