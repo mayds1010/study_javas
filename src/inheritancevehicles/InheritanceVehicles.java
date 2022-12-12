@@ -5,7 +5,7 @@ public class InheritanceVehicles {
 
       Vehicles vehicle = new Vehicles();
       Vans vans = new Vans();
-      Cars cars = new Cars(4);
+      Cars cars = new Cars(5);
 
       System.out.println("Done");
 } 
