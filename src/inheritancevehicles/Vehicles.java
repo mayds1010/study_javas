@@ -3,7 +3,7 @@ package inheritancevehicles;
 public class Vehicles extends Object {
 
     Vehicles(){
-        System.out.println("Vehicles - constructor");
+        // System.out.println("Vehicles - constructor");
     }
     public int speed(int kms, int hours){
         int result = kms / hours;

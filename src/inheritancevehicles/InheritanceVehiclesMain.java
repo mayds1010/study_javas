@@ -1,9 +1,9 @@
 package inheritancevehicles;
 
-public class InheritanceVehicles {
+public class InheritanceVehiclesMain {
     public static void main(String[] args){
 
-      Vehicles vehicle = new Vehicles();
+      Vehicles vehicles = new Vehicles();
       Vans vans = new Vans();
       Cars cars = new Cars(5);
 
