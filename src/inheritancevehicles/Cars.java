@@ -12,7 +12,6 @@ public class Cars extends Vans{
     }
     public int speed(int kms, int hours){
         int result = ((kms / hours) + oneway_count);
-        System.out.println("speed:" + result);
         return result;
     }
 }
