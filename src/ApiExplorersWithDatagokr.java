@@ -23,28 +23,22 @@ public class ApiExplorersWithDatagokr {
          */
 
         StringBuilder urlBuilder = new StringBuilder(
-                "http://apis.data.go.kr/1262000/CountryCovid19SafetyServiceNew/getCountrySafetyNewsListNew"); /* URL */
+                "http://apis.data.go.kr/1262000/CountryCovid19SafetyServiceNew/getCountrySafetyNewsListNew"); // URL
         // 2. 오픈 API의요청 규격에 맞는 파라미터 생성, 발급받은 인증키.
         urlBuilder.append("?" + URLEncoder.encode("ServiceKey", "UTF-8") + "=").append(
-                "EaBOuTaCK4MfqgD%2BZ27IQTUpjaMTuV3ZlVyUmxkdaOXnCfxmEO4c4vMXmBXNlRsDANlCk7BHYACaI7gB5NJ8dg%3D%3D"); /**
-                                                                                                                    * Service
-                                                                                                                    * Key
-                                                                                                                    */
-
-        urlBuilder.append("&" + URLEncoder.encode("returnType", "UTF-8") + "="
-                + URLEncoder.encode("JSON", "UTF-8")); /* XML 또는 JSON */
-        urlBuilder.append("&" + URLEncoder.encode("numOfRows", "UTF-8") + "="
-                + URLEncoder.encode("10", "UTF-8")); /*
-                                                      * 한
-                                                      * 페이지
-                                                      * 결과
-                                                      * 수
-                                                      */
-        urlBuilder.append("&" + URLEncoder.encode("pageNo", "UTF-8") + "="
-                + URLEncoder.encode("1", "UTF-8")); /* 페이지 번호 */
-
-        urlBuilder.append("&" + URLEncoder.encode("cond[country_nm::EQ]", "UTF-8") + "="
-                + URLEncoder.encode("중국", "UTF-8")); /* ISO 2자리코드 */
+                "EaBOuTaCK4MfqgD%2BZ27IQTUpjaMTuV3ZlVyUmxkdaOXnCfxmEO4c4vMXmBXNlRsDANlCk7BHYACaI7gB5NJ8dg%3D%3D"); // Service
+                                                                                                                   // Key
+        urlBuilder.append("&" + URLEncoder.encode("returnType", "UTF-8") + "=" + URLEncoder.encode("JSON", "UTF-8")); // XML
+                                                                                                                      // 또는
+                                                                                                                      // JSON
+        urlBuilder.append("&" + URLEncoder.encode("numOfRows", "UTF-8") + "=" + URLEncoder.encode("10", "UTF-8")); // 한
+                                                                                                                   // 페이지
+                                                                                                                   // 결과
+                                                                                                                   // 수
+        urlBuilder.append("&" + URLEncoder.encode("pageNo", "UTF-8") + "=" + URLEncoder.encode("1", "UTF-8")); // 페이지 번호
+        urlBuilder.append(
+                "&" + URLEncoder.encode("cond[country_nm::EQ]", "UTF-8") + "=" + URLEncoder.encode("중국", "UTF-8")); // ISO
+                                                                                                                    // 2자리코드
 
         URL url; // 주소를 불러옴 샌드(캐스트해야함)
         HttpURLConnection conn = null;
@@ -79,4 +73,3 @@ public class ApiExplorersWithDatagokr {
 
     }
 }
-// https://apis.data.go.kr/1741000/TsunamiShelter3/getTsunamiShelter1List?serviceKey=EaBOuTaCK4MfqgD%2BZ27IQTUpjaMTuV3ZlVyUmxkdaOXnCfxmEO4c4vMXmBXNlRsDANlCk7BHYACaI7gB5NJ8dg%3D%3D&pageNo=1&numOfRows=10&type=xml
