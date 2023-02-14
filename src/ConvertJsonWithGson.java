@@ -8,7 +8,7 @@ public class ConvertJsonWithGson {
     public static void main(String[] args) {
         // 문자열 Json -> Map으로 변경
         Gson gson = new Gson();
-        String jsonStr = "{id:1, name:yojulab}";
+        String jsonStr = "{id:1, name:yojulab, habits:[fitess, read, game]}";
         Map jsonMap = gson.fromJson(jsonStr, Map.class);
 
         // Map -> 문자열 Json으로 변경
@@ -17,6 +17,8 @@ public class ConvertJsonWithGson {
         // 문자열 Json -> object(bean, model, vo)로 변경
         String jsonStrBean = "{firstName:yo, secoundName:jo,handleName:lab}";
         MemberBean memberBean = gson.fromJson(jsonStrBean, MemberBean.class);
+        // object -> 문자열 Json
+        String memeberBeanStr = gson.toJson(memberBean);
         int i = 0;
     }
 }

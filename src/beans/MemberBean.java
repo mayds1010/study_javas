@@ -9,6 +9,9 @@ public class MemberBean {
         this.firstName = firstName;
         this.secoundName = secoundName;
         this.handleName = handleName;
+    } // 생성자
+
+    public MemberBean() { // 파라미터 없는거
     }
 
     // 가져오는
